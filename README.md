@@ -20,12 +20,12 @@ pivpn-ui functions:
 - [x] Responsive interface which should work well with tiny screens.
 - [x] Verify Wireguard integration works.
 
-## ToDo
+## Planned
 
 - [ ] Create an installer script, commands are already copy/paste ready.
 - [ ] Logging for all actions taken, not just login.
-- [ ] Add more sqlite users.
-- [ ] Manage sqlite users permissions.
+- [ ] Implement the ability to add more sqlite users.
+- [ ] Permissions and management of said user permissions.
 - [ ] Replace Moment.js with native javascript.
 - [ ] Consider adding OpenVPN (or just use /pivpn-web/ )...
 
