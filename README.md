@@ -1,7 +1,7 @@
 
 # pivpn-ui (Wireguard)
 
-pivpn-ui is a web app which makes managing clients more convenient for PiVPN. Runs on apache/php/sqlite3, no docker required, as easy as copy/pasting 7 items in the terminal.
+pivpn-ui is a web app which makes managing clients more convenient for PiVPN. Runs on apache/php/sqlite3, no docker required `¯\_(ツ)_/¯`, as simple as copy/pasting a few commands into the terminal.
 
 <img src="./img/screenshot.png"/>
 
@@ -22,6 +22,7 @@ pivpn-ui functions:
 
 ## ToDo
 
+- [ ] Create an installer script, commands are already copy/paste ready.
 - [ ] Logging for all actions taken, not just login.
 - [ ] Add more sqlite users.
 - [ ] Manage sqlite users permissions.
