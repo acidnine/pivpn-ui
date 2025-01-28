@@ -51,6 +51,7 @@ sudo apt update -y && sudo apt install apache2 php php-sqlite3 git -y
 ```
 3.  Edit the file `/etc/apache2/apache2.conf`  and change the default `User` and `Group` to your user and group.
 ```bash
+sudo cp /etc/apache2/apache2.conf /etc/apache2/apache2.conf.bak
 sudo sed -i -e "s@User \${APACHE_RUN_USER}@User $(`echo id -un`)@g" /etc/apache2/apache2.conf
 sudo sed -i -e "s@Group \${APACHE_RUN_GROUP}@Group $(`echo id -gn`)@g" /etc/apache2/apache2.conf
 ```
