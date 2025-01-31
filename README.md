@@ -30,6 +30,7 @@ pivpn-ui functions:
 - [ ] Permissions and management of said user permissions.
 - [ ] Replace Moment.js with native javascript.
 - [ ] Consider adding OpenVPN (or just use /pivpn-web/ )...
+- [ ] Utilize lighttpd instead of apache..
 
 ## Requirements
 
